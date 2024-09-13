@@ -1,37 +1,37 @@
 # SHCD
-耕地变化检测数据集
-## 简介
-本数据集专注于耕地变化检测，主要用于研究和分析中国西南丘陵地区的耕地动态变化。数据由高分二号（GF-2）卫星拍摄，提供高分辨率的遥感影像，适合用于变化检测、土地利用分类等任务。
+Cropland Change Detection Dataset
 
-数据集包含1276对双时影像，每对影像为256×256像素，分别代表两个时间点的耕地影像。这些影像对展示了耕地在不同时段的状态变化，能够为用户提供进行时序分析的基础数据。
+## Introduction
+This dataset focuses on cropland change detection, primarily for studying and analyzing the dynamic changes of croplands in the hilly regions of Southwest China. The data is captured by the GaoFen-2 (GF-2) satellite, providing high-resolution remote sensing images suitable for tasks such as change detection and land use classification.
 
-## 数据详情
-影像来源: 高分二号（GF-2）卫星
-地区: 中国西南丘陵地区
-影像尺寸: 每对影像均为256×256像素
-数据量: 共1276对双时影像
-用途: 耕地变化检测、时序分析、土地利用分类等
-## 适用场景
-遥感影像分析: 使用高分辨率遥感数据进行变化检测。
-土地管理与规划: 通过检测耕地的动态变化，为农业资源规划提供支持。
-学术研究: 支持地理信息系统（GIS）、遥感、环境监测等领域的研究。
-## 数据格式
-输入数据: 每对影像包含两个256×256像素的图像，分别代表不同时间点的耕地状态。
-标签: 部分影像对可能包含手动标注的变化区域（如有）。
-## 使用说明
-用户可以通过以下步骤加载并使用该数据集进行耕地变化检测：
+The dataset includes 1,276 pairs of bi-temporal images, each pair being 256×256 pixels, representing cropland imagery at two different time points. These image pairs reflect the changes in cropland conditions over time, providing users with essential data for time-series analysis.
 
-下载数据集到本地。
-导入数据集至遥感影像处理工具或深度学习框架中（如TensorFlow、PyTorch）。
-使用提供的影像对进行模型训练或变化检测分析。
-## 数据集下载
-数据集可以在GitHub的SHCD分支文件夹中找到，具体路径如下：
+## Data Details
+Image Source: GaoFen-2 (GF-2) satellite
+Region: Hilly regions of Southwest China
+Image Size: 256×256 pixels per image pair
+Data Volume: 1,276 bi-temporal image pairs
+Applications: Cropland change detection, time-series analysis, land use classification
+## Applicable Scenarios
+Remote Sensing Image Analysis: Utilize high-resolution remote sensing data for change detection.
+Land Management and Planning: Detect dynamic changes in croplands to support agricultural resource planning.
+Academic Research: Support research in fields such as Geographic Information Systems (GIS), remote sensing, and environmental monitoring.
+## Data Format
+Input Data: Each pair contains two 256×256 pixel images representing cropland conditions at different time points.
+Labels: Some image pairs may include manually labeled change regions (if available).
+## Usage Instructions
+To use this dataset for cropland change detection, follow these steps:
 
-复制代码
+Download the dataset locally.
+Import the dataset into a remote sensing image processing tool or deep learning framework (e.g., TensorFlow, PyTorch).
+Use the image pairs for model training or change detection analysis.
+## Dataset Download
+The dataset can be found in the SHCD folder on GitHub. Access it via the following path:
+
 GitHub Repository > SHCD
-点击这里前往下载 (请根据实际情况添加GitHub仓库链接)
+Click here to download (Please add the actual GitHub repository link).
 
 ## 引用
-如果您在研究中使用了该数据集，请引用以下文献：
+If you use this dataset in your research, please cite the following reference:
 
-请在此处添加相关的引用信息
+(Please add the relevant citation information here).
